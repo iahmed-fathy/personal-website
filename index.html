@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Fathy</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <video class="background__video" loop autoplay muted>
+            <source src="./background.mp4" type="video/mp4">
+        </video>
+        <header class="header">
+            <label for="menu" class="burger__menu">
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+            </label>
+            <input id="menu" type="checkbox" class="burger--menu__checkbox">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+                    <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+                    <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+                    <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+                    <li><a href="#clients" class="navigation__link navigation__clients">My Clients</a></li>
+                    <li><a href="#contact" class="navigation__link navigation__contact">Contant</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <h3 class="toggle__title">Switch Theme</h3>
+                <input type="checkbox" name="toggle checkbox" id="toggle" class="toggle__checkbox">
+                <label for="toggle" class="toggle__lable"></label>
+            </div>
+        </header>
+        <section id="bio" class="bio section">
+            <div class="bio__data">
+                <h1 class="bio__heading">
+                    Hi, My Name Is <br>Ahmed Fathy
+                </h1>
+                <p class="bio__objective">
+                    I'm a Front-end Developer with a love for building user-friendly websites and
+                    applications. I specialize in
+                    turning ideas into tangible and innovative user experiences using technologies like HTML, CSS,
+                    JavaScript, and React. I
+                    design and develop interactive, responsive interfaces that meet user needs and enhance engagement
+                    with
+                    digital products.
+                </p>
+                <a href="#contact" class="bio__link say_hi-link">Say Hi</a>
+                <a href="./assets/mohamedAbusreaResume.pdf" class="bio__link find_out-link" target="_blank">Download Cv
+                    <span class="bio__arrow">↓</span></a>
+            </div>
+            <div class="bio__pic--content">
+                <img class="bio__pic" src="./images/Ahmed-Fathy.png" alt="Personal Picture">
+            </div>
+        </section>
+
+        <section id="skills" class="skills__content section section--with-bg">
+            <h2 class="h2-heading">Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__column">
+                    <h3 class="skills__title">HTML</h3>
+                    <span class="skills__years">1 Years</span>
+                </li>
+                <li class="skills__column">
+                    <h3 class="skills__title">CSS</h3>
+                    <span class="skills__years">1 Years</span>
+                </li>
+                <li class="skills__column">
+                    <h3 class="skills__title">Javascipt</h3>
+                    <span class="skills__years">1 Years</span>
+                </li>
+                <li class="skills__column">
+                    <h3 class="skills__title">React</h3>
+                    <span class="skills__years">1 Years</span>
+                </li>
+                <li class="skills__column">
+                    <h3 class="skills__title">Bootstrap</h3>
+                    <span class="skills__years">1 Years</span>
+                </li>
+                <li class="skills__column">
+                    <h3 class="skills__title">Python</h3>
+                    <span class="skills__years">1 Years</span>
+                </li>
+            </ul>
+        </section>
+        <section id="media" class="media section">
+            <video class="media__video" poster="./images/video-poster.avif" controls>
+                <source src="./videoplayback.mp4" type="video/mp4">
+                Your browser does not support the video tag
+            </video>
+        </section>
+        <section id="projects" class="projects section">
+            <h2 class="h2-heading">MY FEATURED<br>PROJECTS</h2>
+            <div class="projects__main">
+                <img class="projects__img responsive-img" src="./images/project-1.jpg" alt="project-1 poster">
+                <div class="projects__data">
+                    <h3 class="h3-heading">Quran Tab <br>Extension</h3>
+                    <p class="projects__Des">Quran Tab is an Islamic new tab page that will keep you inspired by a verse
+                        from the Quran every time you open a new tab
+                        that helps you achieve your "Khatma" and keeps you connected with the words of Allah.</p>
+                    <a href="#" class="projects__alink live_preview">Live Preview 🔗</a>
+                    <span>-</span>
+                    <a href="#" class="projects__alink gitHub_repo">GitHub Repository 🔗</a>
+                </div>
+                <div class="projects__data">
+                    <h3 class="h3-heading">Quran Station
+                        <br>Extension
+                    </h3>
+                    <p class="projects__Des">Small extension that gives you access to over 100 stations to help you
+                        listen to the
+                        Quran from your favorite reciters
+                        easily Quran-Station has over 100 stations to help you listen to the Quran from your favorite
+                        reciters
+                        in a
+                        quick and
+                        easy way.</p>
+                    <a href="#" class="projects__alink live_preview">Live Preview 🔗</a>
+                    <span>-</span>
+                    <a href="#" class="projects__alink gitHub_repo">GitHub Repository 🔗</a>
+                </div>
+                <img class="projects__img responsive-img" src="./images/project-2.jpg" alt="project-2 poster">
+            </div>
+        </section>
+        <section id="clients" class="clients section section--with-bg">
+            <h2 class="h2-heading">What My
+                <br>Clients Says
+            </h2>
+            <div class="clients__opinions">
+                <div class="clients_wrapper">
+                    <p class="clients__opinion">Abusrea has the advantageous ability to understand a problem and
+                        implement code to a high standard within the deadline.
+                        Each project we have worked on, I know I can completely trust Abusrea to own his tasks and
+                        complete what is needed when
+                        asked of him.
+                    </p>
+                    <p class="clients__opinion">Mohamed will patiently listen to you and give you his own Ideas as well,
+                        and in the end, he comes up with something
+                        completely different from what you’re expecting, but the good news is, you’ll always love it.
+                    </p>
+                    <p class="clients__opinion">I had a chance to work closely with Mohamed as a direct manager from
+                        hist first day at DeliveryHero until my last day
+                        there (6+months). Mohamed's biggest strengths that I admire are taking initiatives on personal
+                        and team level, and
+                        driving them.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact section">
+            <div>
+                <p class="contact__des">Feel free to reach out to me any time. I prefer to talk over email, especially
+                    since we may be a few time zones away.
+                </p>
+                <a href="mailto:iahmed.fathy@hotmail.com" class="contact__email">iahmed.fathy@hotmail.com</a>
+                <div class="contact__socials">
+                    <a href="#" class="contact__social" target="_blank"><img src="./images/brand/facebook.svg"
+                            alt="icon of facebook"></a>
+                    <a href="#" class="contact__social" target="_blank"><img src="./images/brand/twitter.svg"
+                            alt="icon of twitter"></a>
+                    <a href="#" class="contact__social" target="_blank"><img src="./images/brand/youtube.svg"
+                            alt="icon of youtube"></a>
+                    <a href="#" class="contact__social" target="_blank"><img src="./images/brand/github.svg"
+                            alt="icon of gitgub"></a>
+                    <a href="#" class="contact__social" target="_blank"><img src="./images/brand/instagram.svg"
+                            alt="icon of instagram"></a>
+                    <a href="#" class="contact__social" target="_blank"><img src="./images/brand/LinkedIn.svg"
+                            alt="icon of linkedin"></a>
+                </div>
+            </div>
+            <div class="contact__formContent">
+                <h2 class="h2-heading">Let’s Work
+                    <br>Together!
+                </h2>
+                <form action="results.html" method="post">
+                    <div class="contact__inputs">
+                        <input class="contact__input" type="text" placeholder="Full Name" name="fullname" required>
+                        <input class="contact__input" type="tel" placeholder="Phone No." name="tel" required
+                            pattern="^01[0-2]\d{1,8}$">
+                    </div>
+                    <textarea id="description" class="contact__input contact__textarea" name="message"
+                        placeholder="Your Message" rows="1" required></textarea>
+                    <input type="submit" class="contact__button" value="Send Message">
+                </form>
+            </div>
+        </section>
+        <footer class="footer">&copy; 2025 by Ahmed Fathy</footer>
+    </div>
+</body>
+
+</html>
